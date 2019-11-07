@@ -45,10 +45,6 @@ sudo dnf -y install libevent
 sudo dnf -y install valgrind 
 sudo dnf -y install meld 
 
-# Others
-sudo dnf -y install steam
-sudo dnf -y install discord
-
 # Docker
 sudo dnf -y install docker 
 sudo dnf -y install docker-compose 
