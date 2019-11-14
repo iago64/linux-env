@@ -33,7 +33,6 @@ sudo pacman -S gdb --noconfirm
 sudo pacman -S python --noconfirm
 sudo pacman -S python-pip --noconfirm
 sudo pacman -S jdk8-openjdk --noconfirm
-sudo pacman -S make --noconfirm
 sudo pacman -S cmake --noconfirm
 sudo pacman -S cunit --noconfirm
 sudo pacman -S libevent --noconfirm
