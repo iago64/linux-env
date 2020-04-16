@@ -41,12 +41,6 @@ sudo pacman -S libevent --noconfirm
 sudo pacman -S valgrind --noconfirm
 sudo pacman -S meld --noconfirm
 
-# Others
-sudo pacman -S steam --noconfirm
-sudo pacman -S discord --noconfirm
-sudo pacman -S lutris --noconfirm
-sudo pacman -S vlc --noconfirm
-
 # Docker
 sudo pacman -S docker --noconfirm
 sudo pacman -S docker-compose --noconfirm
