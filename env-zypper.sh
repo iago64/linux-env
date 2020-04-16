@@ -24,7 +24,6 @@ sudo zypper install -y xclip
 sudo zypper install -y bless 
 sudo zypper install -y neofetch
 sudo zypper install -y net-tools
-sudo zypper install -y openssh-server
 sudo zypper install -y zsh
 
 # Lenguajes de Programacion
