@@ -35,7 +35,7 @@ sudo zypper install -y gdb
 sudo zypper install -y python3 
 sudo zypper install -y python3-pip 
 sudo zypper install -y java-1_8_0-openjdk-devel
-sudo zypper install -y CUnit
+sudo zypper install -y libcunit1
 sudo zypper install -y make 
 sudo zypper install -y cmake 
 sudo zypper install -y libevent
