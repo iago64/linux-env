@@ -35,7 +35,7 @@ sudo zypper install -y gcc-c++
 sudo zypper install -y gdb 
 sudo zypper install -y python3 
 sudo zypper install -y python3-pip 
-sudo zypper install -y java-1.8.0-openjdk-devel
+sudo zypper install -y java-1_8_0-openjdk-devel
 sudo zypper install -y CUnit
 sudo zypper install -y make 
 sudo zypper install -y cmake 
