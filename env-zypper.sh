@@ -7,7 +7,7 @@ else
 fi
 
 #Update dnf:
-sudo dnf update
+sudo zypper update
 
 # Paquetes Herramientas
 sudo zypper install -y vim 
