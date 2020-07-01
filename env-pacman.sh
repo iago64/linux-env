@@ -1,12 +1,4 @@
-#!/bin/bash
-if [ "$#" -ne 1 ]
-then
-	read -p "Ingresa el usuario que estas utilizando: "  USUARIO
-else
-	USUARIO=$1
-fi
-
-#Update apt-get:
+#Update
 sudo pacman -Syu	
 
 # Paquetes Herramientas
@@ -40,10 +32,6 @@ sudo pacman -S libevent --noconfirm
 # DEV Utils
 sudo pacman -S valgrind --noconfirm
 sudo pacman -S meld --noconfirm
-
-# Docker
-sudo pacman -S docker --noconfirm
-sudo pacman -S docker-compose --noconfirm
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

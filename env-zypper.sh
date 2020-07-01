@@ -1,52 +1,40 @@
-#!/bin/bash
-if [ "$#" -ne 1 ]
-then
-	read -p "Ingresa el usuario que estas utilizando: "  USUARIO
-else
-	USUARIO=$1
-fi
-
-#Update dnf:
+#Update
 sudo zypper update
 
 # Paquetes Herramientas
-sudo zypper install -y vim 
-sudo zypper install -y emacs 
-sudo zypper install -y nano 
-sudo zypper install -y strace 
-sudo zypper install -y openssh 
-sudo zypper install -y curl 
-sudo zypper install -y htop 
-sudo zypper install -y tree 
-sudo zypper install -y wget 
-sudo zypper install -y terminator 
-sudo zypper install -y xclip 
-sudo zypper install -y bless 
-sudo zypper install -y neofetch
-sudo zypper install -y net-tools
-sudo zypper install -y zsh
+sudo zypper install vim 
+sudo zypper install emacs 
+sudo zypper install nano 
+sudo zypper install strace 
+sudo zypper install openssh 
+sudo zypper install curl 
+sudo zypper install htop 
+sudo zypper install tree 
+sudo zypper install wget 
+sudo zypper install terminator 
+sudo zypper install xclip 
+sudo zypper install bless 
+sudo zypper install neofetch
+sudo zypper install net-tools
+sudo zypper install zsh
 
 # Lenguajes de Programacion
-sudo zypper install -y kernel-devel
-sudo zypper install -y kernel-headers
-sudo zypper install -y gcc 
-sudo zypper install -y gcc-c++
-sudo zypper install -y gdb 
-sudo zypper install -y python3 
-sudo zypper install -y python3-pip 
-sudo zypper install -y java-1_8_0-openjdk-devel
-sudo zypper install -y libcunit1
-sudo zypper install -y make 
-sudo zypper install -y cmake 
-sudo zypper install -y libevent
+sudo zypper install kernel-devel
+sudo zypper install kernel-headers
+sudo zypper install gcc 
+sudo zypper install gcc-c++
+sudo zypper install gdb 
+sudo zypper install python3 
+sudo zypper install python3-pip 
+sudo zypper install java-1_8_0-openjdk-devel
+sudo zypper install libcunit1
+sudo zypper install make 
+sudo zypper install cmake 
+sudo zypper install libevent
 
 # DEV Utils
-sudo zypper install -y valgrind 
-sudo zypper install -y meld 
-
-# Docker
-sudo zypper install -y docker 
-sudo zypper install -y docker-compose 
+sudo zypper install valgrind 
+sudo zypper install meld 
 
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
