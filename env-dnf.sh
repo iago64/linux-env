@@ -2,40 +2,21 @@
 sudo dnf update
 
 # Paquetes Herramientas
-sudo dnf install vim 
-sudo dnf install emacs 
-sudo dnf install nano 
-sudo dnf install strace 
-sudo dnf install openssh 
-sudo dnf install curl 
-sudo dnf install htop 
-sudo dnf install tree 
-sudo dnf install wget 
-sudo dnf install terminator 
-sudo dnf install xclip 
-sudo dnf install bless 
-sudo dnf install neofetch
-sudo dnf install net-tools
-sudo dnf install openssh-server
-sudo dnf install zsh
+echo "Installando Herramientas Generales"
+sudo dnf install vim emacs nano strace openssh curl htop tree wget terminator xclip bless neofetch net-tools openssh-server
 
 # Lenguajes de Programacion
-sudo dnf install kernel-devel
-sudo dnf install kernel-headers
-sudo dnf install gcc 
-sudo dnf install gcc-c++
-sudo dnf install gdb 
-sudo dnf install python3 
-sudo dnf install python3-pip 
-sudo dnf install java-1.8.0-openjdk-devel
-sudo dnf install CUnit
-sudo dnf install make 
-sudo dnf install cmake 
-sudo dnf install libevent
+echo "Installando Lenguajes de Programacion"
+sudo dnf install kernel-devel kernel-headers gcc  gcc-c++ gdb  python3  python3-pip java-11-openjdk CUnit make  cmake 
 
 # DEV Utils
-sudo dnf install valgrind 
-sudo dnf install meld 
+echo "Installando Utilidades de Programacion"
+sudo dnf install valgrind  meld 
+
+# ZSH
+echo "Installando ZSH"
+sudo dnf install zsh
 
 # Oh My Zsh
+echo "Installando Oh My ZSH --> ZSH Cheto"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

@@ -1,5 +1,11 @@
 # LinuxEnv
-Script to setup my linux environment in:
-Debian / Ubuntu / Mint / Pop OS! (apt)
+Scripts que contienen los paquetes mas básicos que utilizo en mis instalaciones de linux:
+
+#### env-dnf.sh
 Fedora (dnf)
-Arch / Manjaro (pacman)
+
+#### env-dnf.sh
+Arch (pacman)
+
+#### env-zypper.sh
+OpenSuse (zypper)

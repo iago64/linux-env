@@ -2,39 +2,22 @@
 sudo zypper update
 
 # Paquetes Herramientas
-sudo zypper install vim 
-sudo zypper install emacs 
-sudo zypper install nano 
-sudo zypper install strace 
-sudo zypper install openssh 
-sudo zypper install curl 
-sudo zypper install htop 
-sudo zypper install tree 
-sudo zypper install wget 
-sudo zypper install terminator 
-sudo zypper install xclip 
-sudo zypper install bless 
-sudo zypper install neofetch
-sudo zypper install net-tools
-sudo zypper install zsh
+echo "Installando Herramientas Generales"
+sudo zypper install vim emacs nano strace openssh curl htop tree wget terminator xclip bless neofetch net-tools
+
 
 # Lenguajes de Programacion
-sudo zypper install kernel-devel
-sudo zypper install kernel-headers
-sudo zypper install gcc 
-sudo zypper install gcc-c++
-sudo zypper install gdb 
-sudo zypper install python3 
-sudo zypper install python3-pip 
-sudo zypper install java-1_8_0-openjdk-devel
-sudo zypper install libcunit1
-sudo zypper install make 
-sudo zypper install cmake 
-sudo zypper install libevent
+echo "Installando Lenguajes de Programacion"
+sudo zypper install kernel-devel kernel-headers gcc gcc-c++ gdb python3 python3-pip java-11-openjdk  libcunit1 make cmake 
 
 # DEV Utils
-sudo zypper install valgrind 
-sudo zypper install meld 
+echo "Installando Utilidades de Programacion"
+sudo zypper install valgrind  meld 
+
+# ZSH
+echo "Installando ZSH"
+sudo zypper install zsh
 
 # Oh My Zsh
+echo "Installando Oh My ZSH --> ZSH Cheto"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
